@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/* .btn { display: inline-block; *display: inline; *zoom: 1; padding: 4px 10px 4px; margin-bottom: 0; font-size: 13px; line-height: 18px; color: #333333; text-align: center;text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75); vertical-align: middle; background-color: #f5f5f5; background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6); background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6)); background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6); background-image: -o-linear-gradient(top, #ffffff, #e6e6e6); background-image: linear-gradient(top, #ffffff, #e6e6e6); background-repeat: repeat-x; filter: progid:dximagetransform.microsoft.gradient(startColorstr=#ffffff, endColorstr=#e6e6e6, GradientType=0); border-color: #e6e6e6 #e6e6e6 #e6e6e6; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); border: 1px solid #e6e6e6; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); cursor: pointer; *margin-left: .3em; } */
+/* .btn:hover, .btn:active, .btn.active, .btn.disabled, .btn[disabled] { background-color: #e6e6e6; } */
+/* .btn-large { padding: 9px 14px; font-size: 15px; line-height: normal; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; } */
+/* .btn:hover { color: #333333; text-decoration: none; background-color: #e6e6e6; background-position: 0 -15px; -webkit-transition: background-position 0.1s linear; -moz-transition: background-position 0.1s linear; -ms-transition: background-position 0.1s linear; -o-transition: background-position 0.1s linear; transition: background-position 0.1s linear; } */
+/* .btn-primary, .btn-primary:hover { text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); color: #ffffff; } */
+/* .btn-primary.active { color: rgba(255, 255, 255, 0.75); } */
+/* .btn-primary { background-color: #070808; background-image: -moz-linear-gradient(top, #6eb6de, #4a77d4); background-image: -ms-linear-gradient(top, #6eb6de, #4a77d4); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#6eb6de), to(#4a77d4)); background-image: -webkit-linear-gradient(top, #6eb6de, #4a77d4); background-image: -o-linear-gradient(top, #6eb6de, #4a77d4); background-image: linear-gradient(top, #6eb6de, #4a77d4); background-repeat: repeat-x; filter: progid:dximagetransform.microsoft.gradient(startColorstr=#6eb6de, endColorstr=#4a77d4, GradientType=0);  border: 1px solid #3762bc; text-shadow: 1px 1px 1px rgba(0,0,0,0.4); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.5); } */
+/* .btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] { filter: none; background-color: #4a77d4; } */
+/* .btn-block { width: 100%; display:block; } */
+
+* { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box; }
+
+html { width: 100%; height:100%; overflow:hidden; }
+
+*{
+    margin:0;
+}
+.bg-image{
+    background-image: url("image/agri2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity:0.9;
+    height:100vh;
+}
+.project-title{
+    margin-bottom:20px;
+    font-family: verdana;
+    background-color: #022710;
+    border-radius: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:center; 
+    color:white;
+}
+
+.form-style{
+    background-color: black;
+    opacity:0.9;
+    padding: 40px 40px 40px 40px;
+    border-radius: 5px;
+    color:white;
+}
+
+.prediction-content{
+    border:1px solid black;
+    position: absolute;
+	top: 22%;
+	left: 23%; 
+    border-radius: 10px;
+	margin: -150px 0 0 -150px;
+    background-color: black;
+    opacity:0.8;
+	width:1100px;
+	height:750px;
+}
+.user-input-table{
+    width:700px;
+    color:white;
+    position: absolute;
+    top:10%;
+    left:10%;
+
+}
+th,td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    font-family: verdana;
+}
+table,th,td{
+    border:1px solid white;
+    border-collapse: collapse;
+}
+
+.feature-range{
+	width:250px;
+    color:white;
+    position: absolute;
+    
+}
+caption{
+    margin-top: 10px;
+    margin-bottom:15px;
+    font-weight: bold;
+    font-family: verdana;
+}
+img {
+	width: 500px;
+	height:300px;
+	position:absolute;
+	top:35%;
+	left:50%;
+}
+.about {
+	position:absolute;
+	top:35%;
+    left:3%;
+	width:500px;
+	color:white;
+	line-height: 27px;
+	font-family: verdana;
+}
+
+
+.predict-button{
+    background-color: green;
+    color:white;
+    border: none;
+    padding:5px 5px 5px 5px;
+    width:100%;
+    height:50px;
+    margin-top:15px;
+    border-radius: 5px;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.predict-form { 
+	position: absolute;
+	top: 30%;
+	left: 45%;
+	margin: -150px 0 0 -150px;
+	width:450px;
+	height:450px;
+   
+}
+
+.predict-again{
+	position:absolute;
+	top:80%;
+	right:20%;
+	padding:7px 7px 7px 7px;
+	border-radius: 5px;
+    background-color: green;
+    color:white; 
+    border: none;
+    width:150px;
+    height:50px;
+    margin-top:15px;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input { 
+	width: 100%; 
+    height:45px;
+	margin-bottom: 10px; 
+	background: rgba(0,0,0,0);
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 18px;
+    font-weight: bold;
+	color: white;
+	/* text-shadow: 1px 1px 1px rgba(0,0,0,0.3); */
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+	box-shadow: inset 0 -5px 45px rgba(142, 213, 159, 0.2), 0 1px 1px rgba(255,255,255,0.2);
+	-webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+}
+input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); } 

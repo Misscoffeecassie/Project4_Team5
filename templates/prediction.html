@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Crop Prediction </title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> 
+</head>
+
+<body >
+<div class="bg-image"></div>
+<div class="prediction-content">
+	<h1 class="project-title">Crop To Grow is {{ result.crop }} </h1>
+    <table class="user-input-table" >
+        <caption class="user-input-cap"> USER's INPUT </caption>
+        <tr>
+            <th> Nitrogen (mg) </th>
+            <th> Phosphorus (mg) </th>
+            <th> Pottassium (mg) </th>
+            <th> Tempreture (&deg;C) </th>
+            <th> Humidity (wfv) </th>
+            <th> pH </th>
+            <th>Rainfall (mm)</th>
+        </tr>
+        <tr> 
+            <td>{{ result.N }}</td>
+            <td>{{ result.P }}</td>
+            <td>{{ result.K }}</td>
+            <td>{{ result.temp }}</td>
+            <td>{{ result.humidity }}</td>
+            <td>{{ result.ph }}</td>
+            <td>{{ result.rainfall }}</td>
+
+        </tr>
+    </table>
+   
+    <div class="about">
+        <b>Ideal Climate For Growing {{result.crop}}</b><br>
+        {{result.para}}<br><BR>
+        The factors in the soil that have high impact on {{result.crop}} cultivation are:<BR><BR>
+        Nitrogen - {{ result['misc']['N'][0] }}&#45;{{ result['misc']['N'][1] }} mg<BR>
+        Phosphorus - {{ result['misc']['P'][0] }}  &#45; {{ result['misc']['P'][1] }} mg<BR>
+        Potassium - {{ result['misc']['K'][0] }}  &#45; {{ result['misc']['K'][1] }} mg<BR>
+        Temperature - {{ result['misc']['temperature'][0] }} &#45; {{ result['misc']['temperature'][1] }} &deg;C<BR>
+        Humidity - {{ result['misc']['humidity'][0] }} &#45; {{ result['misc']['humidity'][1] }} wfv<BR>
+        pH - {{ result['misc']['ph'][0] }}  &#45; {{ result['misc']['ph'][1] }}<BR>
+        Rainfall - {{ result['misc']['rainfall'][0] }}  &#45; {{ result['misc']['rainfall'][1] }} mm
+    </div>
+    <img src="{{result['img']}}" />
+    <form action="/" method="post" >
+        <button type="submit" class="predict-again" >PREDICT</button>
+    </form>
+ </div>
+
+</body>
+</html>
