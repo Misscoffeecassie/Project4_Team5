@@ -13,7 +13,7 @@ An interactive web-based app that predict the best crop to grow based on several
 An application has been developed with the purpose to recommend optimum crops to  be cultivated by farmers and others. The data utilized for this application is sourced from 
 The data have Nitrogen, Phosphorous, Potassium and pH values of soil. Also, it contains the humidity, temperature and rainfall. 
 
-The primary objective behind developing this application is to educate public on precision agriculture and to recommend optimum crops to be cultivated by framers based on several parameters and help them make an informed decision before cultivation. Our target audience of this application are individuals with no knowledge of farming or farmers who are involved in farming in their daily lives. We aimed to help people who don't have knowledge about agriculture but they want toi grow some veggies and fruits in their garden or back/front yard. On the other hand, it is beneficial for farmers as well, who are expert in farming. It helps farmers by providing information such as: In what climate which crop thrive? This bit of information will help farmers to take informed decision and for maximum yeild. 
+The primary objective behind developing this application is to educate public on precision agriculture and to recommend optimum crops to be cultivated by framers based on several parameters and help them make an informed decision before cultivation. Our target audience of this application are individuals with no knowledge of farming or farmers who are involved in farming in their daily lives. We aimed to help people who don't have knowledge about agriculture but they want to grow some veggies and fruits in their garden or back/front yard. On the other hand, it is beneficial for farmers as well, who are expert in farming. It helps farmers by providing information such as: In what climate which crop thrive? This bit of information will help farmers to take informed decision and for maximum yeild. 
 
 ## Features
 #### Web-based app 
@@ -40,7 +40,7 @@ The primary objective behind developing this application is to educate public on
 # Flask Application 
     Python code is used to build a Flask application that serves as a web server for Crop Recommendation AI
 
-> Libraries and Imports 
+> Libraries to Imports 
     Libraries and modules imported, including Flask, Pickle, os, numpy, pandas along with other dependencies 
   
 > Flask Routes 
@@ -48,7 +48,7 @@ The primary objective behind developing this application is to educate public on
 
 > Model Routes 
 > Running the Application 
-    The application is run when when the cript is executed directly. The application runs in debug mode, which provides detailed error messages fo0r ndebugging purposes. 
+    The application is run when when the script is executed directly. The application runs in debug mode, which provides detailed error messages for debugging purposes. 
 
 # Web App
 
