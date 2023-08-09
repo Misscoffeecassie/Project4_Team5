@@ -1,10 +1,10 @@
 # Project4_Team5
 ### Project -4- Machine Learning 
 ## Group 5 Team Members:
-> Barani 
-> Barsha Basel
-> Keerthi K Chippa 
-> Rong Guo (Cassie)
+# Barani 
+# Barsha Basel
+# Keerthi K Chippa 
+# Rong Guo (Cassie)
 
 ## Smart Farming Powered By AI 
 An interactive web-based app that predict the best crop to grow based on several parameters of soil and climate. Crop Prediction AI is a modern farming technique that uses the data of soil characteristics and weather conditions and suggests the farmers with the most optimal crop to grow in their farms for maximum yield and profit. This AI will help farmers and other users to take informed decision about their farming strategy. 
@@ -16,16 +16,16 @@ The data have Nitrogen, Phosphorous, Potassium and pH values of soil. Also, it c
 The primary objective behind developing this application is to educate public on precision agriculture and to recommend optimum crops to be cultivated by framers based on several parameters and help them make an informed decision before cultivation. Our target audience of this application are individuals with no knowledge of farming or farmers who are involved in farming in their daily lives. We aimed to help people who don't have knowledge about agriculture but they want toi grow some veggies and fruits in their garden or back/front yard. On the other hand, it is beneficial for farmers as well, who are expert in farming. It helps farmers by providing information such as: In what climate which crop thrive? This bit of information will help farmers to take informed decision and for maximum yeild. 
 
 ## Features
-> Web-based app 
-> Machine Learning Algorithms 
+# Web-based app 
+# Machine Learning Algorithms 
 
 ## Data Sources 
-> kaggle: https://www.kaggle.com/code/atharvaingle/what-crop-to-grow
+# kaggle: https://www.kaggle.com/code/atharvaingle/what-crop-to-grow
 
 ## Installation
-> Clone the repository: https://github.com/Misscoffeecassie/Project4_Team5.git
-> Navigate to the project directory: cd Project4_Team5
-> Install dependencies: pip install 
+# Clone the repository: https://github.com/Misscoffeecassie/Project4_Team5.git
+# Navigate to the project directory: cd Project4_Team5
+# Install dependencies: pip install 
 
 ## Usage and Aoo Demo Images 
 ## Built With 
