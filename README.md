@@ -40,14 +40,14 @@ The primary objective behind developing this application is to educate public on
 # Flask Application 
     Python code is used to build a Flask application that serves as a web server for Crop Recommendation AI
 
-#### Libraries and Imports 
+> Libraries and Imports 
     Libraries and modules imported, including Flask, Pickle, os, numpy, pandas along with other dependencies 
   
-#### Flask Routes 
+> Flask Routes 
     The Flask application is created with routes defined for different HTML temnplates. These routes handle requests for the main page and prediction page. The corresponding HTML templates are rendered and returned to the client.  
 
-#### Model Routes 
-#### Running the Application 
+> Model Routes 
+> Running the Application 
     The application is run when when the cript is executed directly. The application runs in debug mode, which provides detailed error messages fo0r ndebugging purposes. 
 
 # Web App
