@@ -53,10 +53,10 @@ The primary objective behind developing this application is to educate public on
 # Web App
 
 ## Landing Page
-![Screenshot 2023-08-09 233930](https://github.com/Misscoffeecassie/Project4_Team5/assets/122665451/77d711d0-24c6-4d4e-83b9-9796ae4c8843)
+![Screenshot 2023-08-09 233930](https://github.com/Misscoffeecassie/Project4_Team5/assets/122665451/0fc3dba1-7b46-4d8c-a2d4-d87d29b3beb1)
     
 
 ## Prediction Page 
-![Screenshot 2023-08-09 234025](https://github.com/Misscoffeecassie/Project4_Team5/assets/122665451/049e537a-8841-4d24-856c-eac02c593aaf)
+![Screenshot 2023-08-09 234025](https://github.com/Misscoffeecassie/Project4_Team5/assets/122665451/0cf6d94e-77d7-4819-9e49-b9d6f55e9a99)
 
 
