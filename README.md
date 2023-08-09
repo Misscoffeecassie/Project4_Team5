@@ -27,7 +27,7 @@ The primary objective behind developing this application is to educate public on
 #### Navigate to the project directory: cd Project4_Team5
 #### Install dependencies: pip install 
 
-## Usage and Aoo Demo Images 
+## Usage and App Demo Images 
 ## Built With
 ### ![image](https://github.com/Misscoffeecassie/Project4_Team5/assets/122665451/457b5213-4957-4c7a-bdd2-3bc71319f4d2)
 ### ![image](https://github.com/Misscoffeecassie/Project4_Team5/assets/122665451/6fcb2bec-2a28-4aa5-9605-65ce715b033f)
