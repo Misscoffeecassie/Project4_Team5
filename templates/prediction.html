@@ -14,13 +14,13 @@
 <body >
 <div class="bg-image"></div>
 <div class="prediction-content">
-	<h1 class="project-title">Crop To Grow is {{ result.crop }} </h1>
+	<h2 class="result-title"> Recommended crop to grow is {{ result.crop }} </h2>
     <table class="user-input-table" >
-        <caption class="user-input-cap"> USER's INPUT </caption>
+        <caption class="user-input-cap"> Your input </caption>
         <tr>
             <th> Nitrogen (mg) </th>
             <th> Phosphorus (mg) </th>
-            <th> Pottassium (mg) </th>
+            <th> Potassium (mg) </th>
             <th> Tempreture (&deg;C) </th>
             <th> Humidity (wfv) </th>
             <th> pH </th>
@@ -41,7 +41,7 @@
     <div class="about">
         <b>Ideal Climate For Growing {{result.crop}}</b><br>
         {{result.para}}<br><BR>
-        The factors in the soil that have high impact on {{result.crop}} cultivation are:<BR><BR>
+        Recommended ranges for growing Pigeon Pea are:<BR><BR>
         Nitrogen - {{ result['misc']['N'][0] }}&#45;{{ result['misc']['N'][1] }} mg<BR>
         Phosphorus - {{ result['misc']['P'][0] }}  &#45; {{ result['misc']['P'][1] }} mg<BR>
         Potassium - {{ result['misc']['K'][0] }}  &#45; {{ result['misc']['K'][1] }} mg<BR>
@@ -50,9 +50,10 @@
         pH - {{ result['misc']['ph'][0] }}  &#45; {{ result['misc']['ph'][1] }}<BR>
         Rainfall - {{ result['misc']['rainfall'][0] }}  &#45; {{ result['misc']['rainfall'][1] }} mm
     </div>
+    <h2 class="crop_name">{{ result.crop }}</h2>
     <img src="{{result['img']}}" />
     <form action="/" method="post" >
-        <button type="submit" class="predict-again" >PREDICT</button>
+        <button type="submit" class="predict-again" >Go Home</button>
     </form>
  </div>
 

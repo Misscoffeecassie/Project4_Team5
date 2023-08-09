@@ -14,16 +14,18 @@
 <body >
   <div class="bg-image"></div>  
   <div class="predict-form">
-    <h1 class="project-title">What Crop To Grow ? </h1>
+    <h1 class="project-title">What crop should I grow ?</h1>
+    <!-- <h3>Please fill out the form based on your soil components, rainfall and temperature. We will help predict a suitable crop to be grown.</h3> -->
       <form action="{{url_for('predict')}}" method="post" class="form-style">
-        <input type="text" name="nitrogen" placeholder="Nitrogen (0 to 140 mg)" required="required" />
-        <input type="text" name="phosphorus" placeholder="Phosphorus(5 to 145 mg)" required="required" />
-        <input type="text" name="potassium" placeholder="Potassium (5 to 205 mg)" required="required" />
-        <input type="text" name="temperature" placeholder="Temperature (8 to 44&deg;C)" required="required" />
-        <input type="text" name="humidity" placeholder="Humidity (14 to 100 wfv)" required="required" />
-        <input type="text" name="ph" placeholder="pH level (3 to 10)" required="required" />
-        <input type="text" name="rainfall" placeholder="Rainfall (20 to 300 mm)" required="required" />
-        <button type="submit" class="predict-button" >PREDICT</button>
+        <h3 class="info">Please fill out the form based on your soil components, rainfall and temperature. We will help predict a suitable crop to be grown.</h3>
+        <input type="number" name="nitrogen" placeholder="Nitrogen (0 to 140 mg)" step=".01" required="required" min="0" max="140"/>
+        <input type="number" name="phosphorus" placeholder="Phosphorus (5 to 145 mg)" step=".01" required="required" min="5" max="145" />
+        <input type="number" name="potassium" placeholder="Potassium (5 to 205 mg)" step=".01" required="required" min="5" max="205" />
+        <input type="number" name="temperature" placeholder="Temperature (8 to 44&deg;C)" step=".01" required="required" min="8" max="44" />
+        <input type="number" name="humidity" placeholder="Humidity (14 to 100 wfv)" step=".01" required="required" min="14" max="100" />
+        <input type="number" name="ph" placeholder="pH level (3 to 10)" step=".01" required="required" min="3" max="10" />
+        <input type="number" name="rainfall" placeholder="Rainfall (20 to 300 mm)" step=".01" required="required" min="20" max="300" />
+        <button type="submit" class="predict-button" >PREDICT CROP</button>
       </form>
    </div>
   </body>
