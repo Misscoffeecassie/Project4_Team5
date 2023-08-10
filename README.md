@@ -7,10 +7,10 @@
 #### Rong Guo (Cassie)
 
 ## Smart Farming Powered By AI 
-An interactive web-based app that predict the best crop to grow based on several parameters of soil and climate. Crop Prediction AI is a modern farming technique that uses the data of soil characteristics and weather conditions and suggests the farmers the most optimal crop to grow on their farms for maximum yield and profit. This AI will help farmers and other users to take informed decisions about their farming strategy. 
+An interactive web-based app that predicts the best crop to grow based on several parameters of soil and climate. Crop Prediction AI is a modern farming technique that uses the data of soil characteristics and weather conditions and suggests the farmers the most optimal crop to grow on their farms for maximum yield and profit. This AI will help farmers and other users to take informed decisions about their farming strategy. 
 
 ## Background
-An application has been developed with the purpose to recommend optimum crops to  be cultivated by farmers and others. The data utilized for this application is sourced from 
+An application has been developed to recommend optimum crops to  be cultivated by farmers and others. The data utilized for this application is sourced from 
 The data have Nitrogen, Phosphorous, Potassium and pH values of soil. Also, it contains the humidity, temperature and rainfall. 
 
 The primary objective behind developing this application is to educate the public on precision agriculture and to recommend optimum crops to be cultivated by farmers based on several parameters and help them make an informed decision before cultivation. Our target audience for this application is individuals with no knowledge of farming or farmers who are involved in agriculture in their daily lives. We aimed to help people who don't have knowledge about agriculture but want to grow some veggies and fruits in their garden or back/front yard. On the other hand, it is beneficial for farmers as well, who are experts in farming. It helps farmers by providing information such as: In what climate which crop thrives? This bit of information will help farmers to take an informed decision and for maximum yield. 
