@@ -36,13 +36,13 @@ The primary objective behind developing this application is to educate the publi
 ### ![image](https://github.com/Misscoffeecassie/Project4_Team5/assets/122665451/7796ed97-20cd-4b9c-8659-67ee6c25b05f)
 
 ## Technical Notes 
-# Data Cleaning (Excel & Pandas)
+### Data Cleaning (Excel & Pandas)
 > Review the dataset in Excel, to view features and data quality.
 > Standardise the crop name replacing spaces in crop names with underscores, and removing pluralisation.
 > Join the Kaggle dataset with a propagated dataset of scientific crop classifications, to utilise for aggregation and grouping.
 > Using Python and Pandas to export the combined clean data set to use in when building the different models.
 
-# Flask Application 
+### Flask Application 
     Python code is used to build a Flask application that serves as a web server for Crop Recommendation AI
 
 > Libraries to Imports 
