@@ -2,9 +2,9 @@
 # Project -4- Machine Learning 
 ## Group 5 Team Members:
 - [ ] Barani 
-#### Barsha Basel
-#### Keerthi K Chippa 
-#### Rong Guo (Cassie)
+- [ ] Barsha Basel
+- [ ] Keerthi K Chippa 
+- [ ] Rong Guo (Cassie)
 
 ## Smart Farming Powered By AI 
 An interactive web-based app that predicts the best crop to grow based on several parameters of soil and climate. Crop Prediction AI is a modern farming technique that uses the data of soil characteristics and weather conditions and suggests the farmers the most optimal crop to grow on their farms for maximum yield and profit. This AI will help farmers and other users to take informed decisions about their farming strategy. 
