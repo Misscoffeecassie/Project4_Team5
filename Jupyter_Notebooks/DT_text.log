@@ -1,10 +1,13 @@
-|--- feature_2 <= 65.00
+|--- feature_6 <= 30.40
+|   |--- class: Muskmelon
+|--- feature_6 >  30.40
 |   |--- feature_4 <= 27.98
-|   |   |--- class: Kidney Bean
+|   |   |--- feature_2 <= 50.00
+|   |   |   |--- class: Kidney Bean
+|   |   |--- feature_2 >  50.00
+|   |   |   |--- class: Chickpea
 |   |--- feature_4 >  27.98
-|   |   |--- feature_6 <= 30.40
-|   |   |   |--- class: Muskmelon
-|   |   |--- feature_6 >  30.40
+|   |   |--- feature_2 <= 125.00
 |   |   |   |--- feature_4 <= 73.24
 |   |   |   |   |--- feature_0 <= 59.50
 |   |   |   |   |   |--- feature_6 <= 82.10
@@ -31,9 +34,9 @@
 |   |   |   |   |   |   |   |--- class: Pigeon Pea
 |   |   |   |   |--- feature_0 >  59.50
 |   |   |   |   |   |--- feature_6 <= 112.49
-|   |   |   |   |   |   |--- feature_5 <= 7.08
+|   |   |   |   |   |   |--- feature_3 <= 29.21
 |   |   |   |   |   |   |   |--- class: Maize
-|   |   |   |   |   |   |--- feature_5 >  7.08
+|   |   |   |   |   |   |--- feature_3 >  29.21
 |   |   |   |   |   |   |   |--- class: Urad Bean
 |   |   |   |   |   |--- feature_6 >  112.49
 |   |   |   |   |   |   |--- feature_4 <= 70.41
@@ -42,22 +45,22 @@
 |   |   |   |   |   |   |   |--- class: Jute
 |   |   |   |--- feature_4 >  73.24
 |   |   |   |   |--- feature_1 <= 32.50
-|   |   |   |   |   |--- feature_2 <= 20.00
-|   |   |   |   |   |   |--- class: Orange
-|   |   |   |   |   |--- feature_2 >  20.00
-|   |   |   |   |   |   |--- feature_0 <= 60.00
-|   |   |   |   |   |   |   |--- feature_3 <= 24.99
+|   |   |   |   |   |--- feature_6 <= 79.96
+|   |   |   |   |   |   |--- class: Watermelon
+|   |   |   |   |   |--- feature_6 >  79.96
+|   |   |   |   |   |   |--- feature_2 <= 20.00
+|   |   |   |   |   |   |   |--- class: Orange
+|   |   |   |   |   |   |--- feature_2 >  20.00
+|   |   |   |   |   |   |   |--- feature_6 <= 121.78
 |   |   |   |   |   |   |   |   |--- class: Pomegranate
-|   |   |   |   |   |   |   |--- feature_3 >  24.99
+|   |   |   |   |   |   |   |--- feature_6 >  121.78
 |   |   |   |   |   |   |   |   |--- class: Coconut
-|   |   |   |   |   |   |--- feature_0 >  60.00
-|   |   |   |   |   |   |   |--- class: Watermelon
 |   |   |   |   |--- feature_1 >  32.50
 |   |   |   |   |   |--- feature_4 <= 90.02
-|   |   |   |   |   |   |--- feature_1 <= 65.00
-|   |   |   |   |   |   |   |--- feature_6 <= 60.26
-|   |   |   |   |   |   |   |   |--- class: Mung Bean
-|   |   |   |   |   |   |   |--- feature_6 >  60.26
+|   |   |   |   |   |   |--- feature_0 <= 50.00
+|   |   |   |   |   |   |   |--- class: Mung Bean
+|   |   |   |   |   |   |--- feature_0 >  50.00
+|   |   |   |   |   |   |   |--- feature_1 <= 65.00
 |   |   |   |   |   |   |   |   |--- feature_6 <= 103.62
 |   |   |   |   |   |   |   |   |   |--- feature_0 <= 99.00
 |   |   |   |   |   |   |   |   |   |   |--- class: Maize
@@ -71,15 +74,12 @@
 |   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
 |   |   |   |   |   |   |   |   |   |--- feature_6 >  199.96
 |   |   |   |   |   |   |   |   |   |   |--- class: Rice
-|   |   |   |   |   |   |--- feature_1 >  65.00
-|   |   |   |   |   |   |   |--- class: Banana
+|   |   |   |   |   |   |   |--- feature_1 >  65.00
+|   |   |   |   |   |   |   |   |--- class: Banana
 |   |   |   |   |   |--- feature_4 >  90.02
 |   |   |   |   |   |   |--- class: Papaya
-|--- feature_2 >  65.00
-|   |--- feature_6 <= 97.45
-|   |   |--- feature_2 <= 140.00
-|   |   |   |--- class: Chickpea
-|   |   |--- feature_2 >  140.00
-|   |   |   |--- class: Grapes
-|   |--- feature_6 >  97.45
-|   |   |--- class: Apple
+|   |   |--- feature_2 >  125.00
+|   |   |   |--- feature_6 <= 87.52
+|   |   |   |   |--- class: Grapes
+|   |   |   |--- feature_6 >  87.52
+|   |   |   |   |--- class: Apple
