@@ -34,6 +34,7 @@ The primary objective behind developing this application is to educate the publi
 ### ![image](https://github.com/Misscoffeecassie/Project4_Team5/assets/122665451/ce5aa486-deec-445c-91dd-1a4c27e02403)
 ### ![image](https://github.com/Misscoffeecassie/Project4_Team5/assets/122665451/997f1fcb-ef5c-4766-b8b5-767503731c96)
 ### ![image](https://github.com/Misscoffeecassie/Project4_Team5/assets/122665451/7796ed97-20cd-4b9c-8659-67ee6c25b05f)
+### ![image](https://github.com/Misscoffeecassie/Project4_Team5/assets/122665451/b16a0d95-3f0f-49ca-bc43-5e8e38db8de8)
 
 ## Technical Notes 
 #### Data Cleaning (Excel & Pandas)
